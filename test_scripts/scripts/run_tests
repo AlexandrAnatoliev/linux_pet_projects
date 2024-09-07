@@ -1,0 +1,6 @@
+# run_tests
+#!/bin/bash
+./compile_and_run test1.c
+./compile_and_run test2.c
+./compile_and_run test3.c
+rm ./a.out	# temporary file is deleted
